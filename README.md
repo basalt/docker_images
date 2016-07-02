@@ -1,6 +1,6 @@
 # basalt Docker images
 
-This way you can easily try basalt, use basalt without local installation or build (and in a way cross compile for Linux) on OSX or Windows.
+This way you can easily try [basalt](https://github.com/basalt/basalt), use basalt without local installation or build (and in a way cross compile for Linux) on OSX or Windows.
 
 The images are not yet published on Docker hub, therefore you need to clone the repo. At the moment there is a base image with just the things you need to get started with basalt, a python image with some stuff we need for our python projects and an image named dajool which uses a slightly different folder structure, that fit the needs of [dajool](http://dajool.com).
 
