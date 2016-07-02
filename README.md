@@ -15,8 +15,8 @@ If you need any other development environments, just take a look at the [Python 
 
 ## Using the basalt Docker images
 
-`docker run --rm -i -t -v ~/my_repos/my_sources:/src basalt/python make build`
+`docker run --rm -i -t -v ~/my_repos/my_sources:/src basalt/python invoke build --config configs/production.yaml`
 
-In this example we are using the python image and `make build` is execute in the `src` directory of the Docker container. `src` is your mounted local folder `my_sources`. This way the results of the compilation won't vanish with the container. The argument `--rm` destorys the container immediately after execution, so we won't accumulate a whole pile of dead contianers.
+In this example we are using the python image and `invoke build` is execute in the `src` directory of the Docker container. `src` is your mounted local folder `my_sources`. This way the results of the compilation won't vanish with the container. The argument `--rm` destorys the container immediately after execution, so we won't accumulate a whole pile of dead contianers.
 
 That's it. Have fun!
