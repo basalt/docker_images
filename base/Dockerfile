@@ -1,5 +1,5 @@
 FROM ubuntu:14.04.4
-MAINTAINER Jochen Breuer "brejoc@gmail.com"
+MAINTAINER Jochen Breuer "basalt@dajool.com"
 
 RUN apt-get update
 RUN apt-get -y dist-upgrade
