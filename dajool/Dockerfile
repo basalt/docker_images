@@ -1,4 +1,4 @@
-FROM basalt/python:latest
+FROM basaltbuild/python:latest
 MAINTAINER Jochen Breuer "basalt@dajool.com"
 
 WORKDIR /src/_bnd
