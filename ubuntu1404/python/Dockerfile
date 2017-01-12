@@ -1,4 +1,4 @@
-FROM basaltbuild/base:latest
+FROM basaltbuild/ubuntu1404_base:latest
 MAINTAINER Jochen Breuer "basalt@dajool.com"
 
 RUN apt-get update

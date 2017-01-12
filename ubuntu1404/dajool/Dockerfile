@@ -1,4 +1,4 @@
-FROM basaltbuild/python:latest
+FROM basaltbuild/ubuntu1404_python:latest
 MAINTAINER Jochen Breuer "basalt@dajool.com"
 
 RUN apt-get update
